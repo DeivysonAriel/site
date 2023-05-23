@@ -80,6 +80,7 @@ margin-top: 30px;
         justify-content: center;
         align-items: center;
         margin-left: -100%;
+        z-index:1;
     }.nav-links.mobile-menu{
         margin-left: 0;
     }.nav-links ul{
