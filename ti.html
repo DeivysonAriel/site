@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.jpeg" type="image/x-icon">
+    <link rel="stylesheet" href="ti.css">
+    <title>SOBRE O TI</title>
+</head>
+<body>
+    
+    <nav class="navbar">
+        <h1 class="logo">WEB SITE</h1>
+         
+         <div class="nav-links">
+              <ul>
+               <button class="bt"><a href="index.html" style="color: white;">MENU PRINCIPAL</a></button><br><br>
+                <button class="bt"><a href="catalogo.html" style="color: white;">CATÀLOGO </a></button>
+                
+              </ul>
+         </div>
+     
+        
+    <img src="https://static.vecteezy.com/system/resources/thumbnails/009/391/899/small/app-menu-icon-sign-symbol-design-free-png.png" alt="menu" width="40px" class="menu">
+  </nav>
+    <main class="cliente">
+       
+        
+        <h3>nome</h3>
+        <p>deivyson ariel silva dos santos</p>
+        <h3>idade</h3>
+        <p>22</p>
+        <h3>experiência</h3>
+        <p>4 anos de web designer</p>
+          <h3>Habilidades Técnicas</h3>
+          <ul>
+            <li>Design visual e conceitualização</li>
+            <li>Layout, cores, tipografia e hierarquia visual</li><br><br>
+             <p>Como web designer, tenho um forte entendimento de princípios de design, incluindo layout, cores, tipografia e hierarquia visual. Minha abordagem é centrada no usuário, sempre buscando criar uma experiência agradável e intuitiva para os visitantes do site. Tenho conhecimentos avançados em HTML, CSS e JavaScript, o que me permite traduzir minhas ideias criativas em código funcional.</p>
+    </main>
+    <script>
+        const menu = document.querySelector(".menu")
+        const navLinks = document.querySelector(".nav-links")
+ 
+        menu.addEventListener('click',()=>{
+        navLinks.classList.toggle('mobile-menu')
+        })
+</script>
+
+</body>
+</html>

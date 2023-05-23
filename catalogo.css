@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(fundo1.png) ;
+    background-size: 100hv ;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+   
+} section{
+    z-index:0;
+}.cliente{
+    background-color: rgb(30, 29, 48);
+    margin: 100px 20px 20px 20px;
+    border-radius: 30px;
+    padding: 15px;
+    color: white;
+}.navbar{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    }.logo{
+         color: white;
+        font-family: 'Anton', sans-serif;
+       letter-spacing: 5px;
+    }.navbar .nav-links ul {
+        display: flex;
+        margin: 0px 80px;
+        align-items: center;
+        justify-content: center;
+        padding-top: 10px;
+        
+    }.ultimo{
+        background-color: rgb(27, 26, 26);
+        padding: 30px;
+    }.navbar .menu{
+        display: none;
+        position: absolute;
+        
+        right: 58px;
+    
+    } @media (max-width: 900px){
+        .navbar{
+            padding: 0px;
+            margin: 0px;
+        }
+        .navbar .menu{
+            z-index: 2;
+            display: block;
+            margin: 40px 0px 0px 60px;
+        }.logo{
+            position: absolute;
+            top: 40px;
+            left: 50px;
+    
+        }
+        .nav-links{
+            top: 0px;
+            left: 0px;
+           position: absolute;
+            background-color: rgba(98, 36, 122, 0.329);
+            backdrop-filter: blur(4px);
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-left: -100%;
+            z-index:1;
+        }.nav-links.mobile-menu{
+            margin-left: 0;
+        }.nav-links ul{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }.navbar .nav-links ul li{
+            margin: 10px 0px;
+            font-size: 1.2em;
+        }
+    }.bt {
+        border-radius: .25rem;
+        text-transform: uppercase;
+        font-style: normal;
+        font-weight: 400;
+        padding-left: 25px;
+        padding-right: 25px;
+        color: #ececec;
+        -webkit-clip-path: polygon(0 0,0 0,100% 0,100% 0,100% calc(100% - 15px),calc(100% - 15px) 100%,15px 100%,0 100%);
+        clip-path: polygon(0 0,0 0,100% 0,100% 0,100% calc(100% - 15px),calc(100% - 15px) 100%,15px 100%,0 100%);
+        height: 40px;
+        font-size: 0.7rem;
+        line-height: 14px;
+        letter-spacing: 1.2px;
+        transition: .2s .1s;
+        background-image: linear-gradient(90deg,#000000,#0606b9);
+        border: 0 solid;
+        overflow: hidden;
+      }
+      
+      button:hover {
+        cursor: pointer;
+        transition: all .3s ease-in;
+        padding-right: 30px;
+        padding-left: 30px;
+      }.cssbuttons-io-button { 
+        background: #A370F0;
+        color: white;
+        font-family: inherit;
+        padding: 0.35em;
+        padding-left: 1.2em;
+        font-size: 17px;
+        font-weight: 500;
+        border-radius: 0.9em;
+        border: none;
+        letter-spacing: 0.05em;
+        display: flex;
+        align-items: center;
+        box-shadow: inset 0 0 1.6em -0.6em #714da6;
+        overflow: hidden;
+        position: relative;
+        height: 2.8em;
+        padding-right: 3.3em;
+        position: relative;
+        top: 100px;
+        margin-left: 15vh;
+      }
+      
+      .cssbuttons-io-button .icon {
+        background: white;
+        margin-left: 1em;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 2.2em;
+        width: 2.2em;
+        border-radius: 0.7em;
+        box-shadow: 0.1em 0.1em 0.6em 0.2em #7b52b9;
+        right: 0.3em;
+        transition: all 0.3s;
+      }
+      
+      .cssbuttons-io-button:hover .icon {
+        width: calc(100% - 0.6em);
+        white-space: nowrap;
+        
+      }
+      
+      .cssbuttons-io-button .icon svg {
+        width: 1.1em;
+        transition: transform 0.3s;
+        color: #7b52b9;
+      }
+      
+      .cssbuttons-io-button:hover .icon svg {
+        transform: translateX(0.1em);
+      }
+      
+      .cssbuttons-io-button:active .icon {
+        transform: scale(0.9);
+      }
+      
